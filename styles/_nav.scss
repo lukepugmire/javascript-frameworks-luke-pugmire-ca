@@ -1,0 +1,31 @@
+nav {
+  background: #3d4037;
+  padding: 1rem;
+  a {
+    color: #f6fce4;
+    margin-right: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  a:hover {
+    color: rgb(185, 192, 168);
+  }
+  button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #f6fce4;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    float: right;
+  }
+  button:hover {
+    color: rgb(185, 192, 168);
+  }
+}

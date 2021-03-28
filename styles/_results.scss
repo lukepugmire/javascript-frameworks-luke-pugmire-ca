@@ -1,0 +1,32 @@
+.char_card {
+  color: black;
+  background-color: #b9c0a8;
+  box-shadow: 1px 1px 2px #e4e4e4;
+  letter-spacing: 2px;
+  height: 30px;
+  width: 100%;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  h2 {
+    margin-left: 1rem;
+    flex: 3;
+  }
+  p {
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  a {
+    flex: 1;
+    font-size: 12px;
+    color: rgb(37, 68, 129);
+  }
+}
+.char_card:hover {
+  background-color: #f6fce4;
+  height: 38px;
+}
